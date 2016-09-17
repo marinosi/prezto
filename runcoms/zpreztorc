@@ -34,7 +34,6 @@ zstyle ':prezto:load' pmodule \
   'completion' \
   'fasd' \
   'osx' \
-  'ssh' \
   'homebrew' \
   'git' \
   'tmux' \
