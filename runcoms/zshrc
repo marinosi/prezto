@@ -34,3 +34,13 @@ bindkey '^Z' fancy-ctrl-z
 
 bindkey -M "$keymap" "$key_info[Control]os" prepend-sudo
 
+# Aliases
+alias keyon="ssh-add -t 10800"
+alias keyoff='ssh-add -D'
+alias keylist='ssh-add -l'
+alias grep='grep --color=auto'
+alias scpresume="rsync --partial --progress --rsh=ssh"
+alias c="clear"
+unalias rm 2> /dev/null
+unalias cp 2> /dev/null
+#
