@@ -34,6 +34,8 @@ bindkey '^Z' fancy-ctrl-z
 
 bindkey -M "$keymap" "$key_info[Control]os" prepend-sudo
 
+setopt clobber
+
 # Aliases
 alias keyon="ssh-add -t 10800"
 alias keyoff='ssh-add -D'

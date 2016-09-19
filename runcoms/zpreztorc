@@ -37,9 +37,9 @@ zstyle ':prezto:load' pmodule \
   'homebrew' \
   'git' \
   'tmux' \
-  'prompt' \
+  'syntax-highlighting' \
   'history-substring-search' \
-  'terminal' \
+  'prompt' \
 
 #
 # Autosuggestions
@@ -128,6 +128,7 @@ zstyle ':prezto:module:prompt' theme 'liak'
 #
 # Syntax Highlighting
 #
+ zstyle ':prezto:module:syntax-highlighting' color 'yes'
 
 # Set syntax highlighters.
 # By default, only the main highlighter is enabled.
@@ -140,10 +141,10 @@ zstyle ':prezto:module:prompt' theme 'liak'
    'root'
 #
 # Set syntax highlighting styles.
- zstyle ':prezto:module:syntax-highlighting' styles \
-   'builtin' 'bg=blue' \
-   'command' 'bg=blue' \
-   'function' 'bg=blue'
+ #zstyle ':prezto:module:syntax-highlighting' styles \
+   #'builtin' 'bg=blue' \
+   #'command' 'bg=blue' \
+   #'function' 'bg=blue'
 
 #
 # Terminal
